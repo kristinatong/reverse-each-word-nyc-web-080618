@@ -3,5 +3,4 @@ def reverse_each_word(sent)
   sent_list.collect do |x|
     x.reverse
   end
-  rev_list.join(" ")
 end
